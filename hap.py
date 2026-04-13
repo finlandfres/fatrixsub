@@ -14,7 +14,7 @@ import yaml
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8221100964:AAFCPZXJ8bVCPWhOF0GBdMKeSy8jHUdB_XE")
 FLASK_HOST = "0.0.0.0"
 FLASK_PORT = int(os.environ.get("PORT", 5000))
-BASE_URL = os.environ.get("BASE_URL", f"http://localhost:{FLASK_PORT}")
+BASE_URL = os.environ.get("BASE_URL", f"https://fatrixsub.onrender.com")
 
 TRAFFIC_LIMIT_MB = 500
 RENEW_THRESHOLD_MB = 200
